@@ -1,0 +1,60 @@
+body {
+	background-color: red;
+margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  font-family: "Alegreya";
+  font-size: 18px;
+}
+
+h1 {
+	color:white;
+	font-size: 48px
+}
+
+h2 {
+  font-family: Oswald;
+  font-weight: normal;
+}
+
+.myHeading {
+	color: blue
+}
+
+header#main-header {
+  background: url(http://www.telegraph-office.com/pages/images/Titanic_Wireless_Schematic.gif) center center;
+  padding: 5%;
+  line-height: 1.2;
+  color: crimson;
+  position: relative;
+  z-index: 0;
+}
+
+header#main-header::before {
+  background: white;
+  content: "";
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+header#main-header p.summary {
+  font-size: 30px;
+  text-shadow: 0 0 5px white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Oswald;
+  font-weight: normal;
+}
+
+#main-header h1 {
+  margin: 0;
+  font-size: 80px;
+  text-shadow: 0 0 10px white;
+  letter-spacing: -3px;
+}
